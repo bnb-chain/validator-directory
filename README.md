@@ -20,11 +20,13 @@ git clone git@github.com:xxxxxx/validator-directory.git
 cd validator-directory/
 ```
 
-3. Copy the template [README.md](./template/README.md) and [JSON Profile](./template/profile.json) into your folder inside `validators/<your-valoper-address>`.
+3. Create folder with name of your validator address, like "bva1pnww8kx30sz4xfcqvn8wjhrn796nf4dq77hcpa"
 
-4. Change the contents and add your information as necessary. You can modify anything within your own designated validator folder, including adding image files, new folders, etc.
+4. Copy the template [README.md](./template/README.md) and [JSON Profile](./template/profile.json) into your folder inside `validators/<your-validator-address>`. Upload your logo with file named logo.png to previously created folder with smartcontract address, and if you done all correctly your path should look like this.    `validators/bva1pnww8kx30sz4xfcqvn8wjhrn796nf4dq77hcpa/logo.png`
 
-5. Commit and push the information to your repo.
+5. Change the contents and add your information as necessary. 
+
+6. Commit and push the information to your repo.
 
 ```sh
 git add -A
@@ -32,9 +34,9 @@ git commit -m "Edit validator profile"
 git push origin main
 ```
 
-6. Under your repo page, click the “New pull request” button. Make a Pull Request with our repository with a summary of changes.
+7. Under your repo page, click the “New pull request” button. Make a Pull Request with our repository with a summary of changes.
 
-7. We will review your PR as soon as possible. 
+8. We will review your PR as soon as possible. 
 
 
 ### profile.json

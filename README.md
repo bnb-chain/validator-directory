@@ -47,7 +47,9 @@ Registered validators (validators who have submitted a profile) can opt-in to re
 {
     "contact": { // contact info for delegators / outreach
         "email": "validator@example.com",
-        "telegram": "@validator"
+        "twitter":"exampleaccount",
+        "telegram": "@validator123",
+        "website": "https://www.example.com"
     },
     "notifications": { // notification settings
         "email": "technicalemail@example.com" // email to receive notifications

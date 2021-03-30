@@ -22,7 +22,7 @@ cd validator-directory/
 
 3. Create folder with name of your validator address, like "bva1pnww8kx30sz4xfcqvn8wjhrn796nf4dq77hcpa"
 
-4. Copy the template [README.md](./template/README.md) and [JSON Profile](./template/profile.json) into your folder inside `validators/<your-validator-address>`. Upload your logo with file named logo.png to previously created folder with smartcontract address, and if you done all correctly your path should look like this.    `validators/bva1pnww8kx30sz4xfcqvn8wjhrn796nf4dq77hcpa/logo.png` Logo must have dimensions: min: 64x64 and max: 512x512 instead 554x554
+4. Copy the template [README.md](./template/README.md) and [JSON Profile](./template/profile.json) into your folder inside `validators/<your-validator-address>`. Upload your logo with file named logo.png to previously created folder with smartcontract address, and if you done all correctly your path should look like this.    `validators/bva1pnww8kx30sz4xfcqvn8wjhrn796nf4dq77hcpa/logo.png` Logo must have dimensions: min: 64x64 and max: 512x512 
 
 5. Change the contents and add your information as necessary. 
 

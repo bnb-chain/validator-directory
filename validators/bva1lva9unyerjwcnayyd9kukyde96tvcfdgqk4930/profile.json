@@ -1,0 +1,11 @@
+{
+  "contact": {
+    "email": "info@certik.org",
+    "twitter":"certikorg",
+    "telegram": "https://t.me/certikfoundation",
+    "website": "https://www.certik.org"
+  },
+  "notifications": {
+    "email": "info@certik.org"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "contact": {
+    "email": "bsc-validator@ankr.com",
+    "twitter":"https://twitter.com/ankr",
+    "telegram": "https://t.me/ankrnetwork",
+    "website": "https://www.ankr.com"
+  },
+  "notifications": {
+      "email": "bsc-validator@example.com"
+  }
+}

@@ -4,7 +4,7 @@ Validator: bva1lva9unyerjwcnayyd9kukyde96tvcfdgqk4930
 Email: info@certik.org
 Telegram: https://t.me/certikfoundation
 ---
-CertiK is proud to announce the launch of our Binance Smart Chain validator node, marking a new milestone in our partnership by furthering the creation of a secure staking ecosystem.
+CertiK is proud to announce the launch of our BNB Chain validator node, marking a new milestone in our partnership by furthering the creation of a secure staking ecosystem.
 
 ## Why CertiK Qualify?
 CertiK has established and flourished a security focused partnership with BSC since day one, providing support to many high-quality projects in the BSC ecosystem. With a team of in-house security experts to ensure validator health and security,we will become a reliable validator for the BSC community.  

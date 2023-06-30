@@ -6,7 +6,7 @@
 
 ## What is a Validator Profile?
 
-Binance Smart Chain validators power the blockchain network by processing transactions and signing blocks. Validator candidates need to get supports from delegator community to increase their total voting power. This repository is a place for validator candidates to give potential delegators a brief introduction about your team and infrastructure, and present your ecosystem contributions.
+BNB Chain validators power the blockchain network by processing transactions and signing blocks. Validator candidates need to get supports from delegator community to increase their total voting power. This repository is a place for validator candidates to give potential delegators a brief introduction about your team and infrastructure, and present your ecosystem contributions.
 
 
 ## How to change your Validator Profile

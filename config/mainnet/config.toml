@@ -1,17 +1,11 @@
 [Eth]
 NetworkId = 56
-NoPruning = false
-NoPrefetch = false
-LightPeers = 100
 TrieTimeout = 150000000000
-TriesInMemory = 32
-EnablePreimageRecording = false
 
 [Eth.Miner]
 GasCeil = 140000000
 GasPrice = 3000000000
 Recommit = 10000000000
-Noverify = false
 
 
 [Eth.TxPool]
@@ -30,7 +24,7 @@ Lifetime = 600000000000
 [Eth.GPO]
 Blocks = 20
 Percentile = 60
-OracleThreshold = 1000
+OracleThreshold = 20
 
 
 [Node]
@@ -38,18 +32,18 @@ DataDir = ""
 InsecureUnlockAllowed = false
 NoUSB = true
 IPCPath = "geth.ipc"
-HTTPHost = "0.0.0.0"
+HTTPHost = "localhost"
 HTTPPort = 8545
-HTTPVirtualHosts = ["*"]
+HTTPVirtualHosts = ["localhost"]
 HTTPModules = ["eth", "net", "web3", "txpool", "parlia"]
-WSPort = 8545
+WSPort = 8546
 WSModules = ["net", "web3", "eth"]
 
 [Node.P2P]
 MaxPeers = 100
 NoDiscovery = true
 BootstrapNodes = []
-StaticNodes = [<get the node list for validators>]
+StaticNodes = [<node list for validator>]
 ListenAddr = ":30311"
 EnableMsgEvents = false
 

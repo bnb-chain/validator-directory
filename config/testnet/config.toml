@@ -1,67 +1,12 @@
 [Eth]
 NetworkId = 97
-SyncMode = "full"
-
-NoPruning = false
-NoPrefetch = false
-LightPeers = 100
-
-DatabaseCache = 512
-DatabaseFreezer = ""
-TrieCleanCache = 256
-TrieDirtyCache = 256
-TrieTimeout = 6000000000
-EnablePreimageRecording = false
-EWASMInterpreter = ""
-EVMInterpreter = ""
-
-
-[Eth.Genesis.Config]
-ChainID = 97
-HomesteadBlock = 0
-EIP150Block = 0
-EIP155Block = 0
-EIP158Block = 0
-ByzantiumBlock = 0
-ConstantinopleBlock = 0
-PetersburgBlock = 0
-IstanbulBlock = 0
-MuirGlacierBlock = 0
-NielsBlock = 1014369
-RamanujanBlock = 1010000
-MirrorSyncBlock = 5582500
-BrunoBlock = 13837000
-LubanBlock = 29295050
-PlatoBlock = 29861024
-EulerBlock = 19203503
-GibbsBlock = 22800220
-NanoBlock = 23482428
-MoranBlock = 23603940
-PlanckBlock = 28196022
-
-[Eth.Genesis.Config.Parlia]
-Period = 3
-Epoch = 200
-
+TrieTimeout = 30000000000
 
 [Eth.Miner]
 VoteEnable = true
-GasFloor = 29000000
-GasCeil = 29000000
+GasCeil = 50000000
 GasPrice = 10000000000
 Recommit = 10000000000
-Noverify = false
-
-[Eth.Ethash]
-CacheDir = ""
-CachesInMem = 0
-CachesOnDisk = 0
-CachesLockMmap = false
-DatasetDir = ""
-DatasetsInMem = 0
-DatasetsOnDisk = 0
-DatasetsLockMmap = false
-PowMode = 0
 
 [Eth.TxPool]
 Locals = []
@@ -79,7 +24,7 @@ Lifetime = 10800000000000
 [Eth.GPO]
 Blocks = 20
 Percentile = 60
-OracleThreshold = 100
+OracleThreshold = 20
 
 [Node]
 DataDir = ""
@@ -94,14 +39,12 @@ HTTPVirtualHosts = ["localhost"]
 HTTPModules = ["eth", "net", "web3", "txpool", "parlia"]
 WSPort = 8546
 WSModules = ["net", "web3", "eth"]
-EnableMaliciousVoteMonitor = true
-
 
 [Node.P2P]
 MaxPeers = 50
-NoDiscovery = false
+NoDiscovery = true
 BootstrapNodes = []
-StaticNodes = []
+StaticNodes = [<node list for validator>]
 TrustedNodes = []
 ListenAddr = ":30311"
 EnableMsgEvents = false
